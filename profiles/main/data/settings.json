@@ -27,7 +27,13 @@
   "editor.lineHeight": 26,
   "prettier.singleQuote": true,
   "editor.cursorBlinking": "phase",
-  "editor.fontWeight": "600",
+  // #if(os="mac")
+  // "editor.fontWeight": "300",
+  // #elif(os="windows")
+  // "editor.fontWeight": "400",
+  // #else
+  // "editor.fontWeight": "600",
+  // #endif
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -66,5 +72,24 @@
   "redhat.telemetry.enabled": false,
   "syncSettings.hostname": "{{hostname}}",
   "syncSettings.gitInitMessage": "profile({{profile}}): init -- {{now|date:iso}}",
-  "syncSettings.gitUpdateMessage": "profile({{profile}}): update -- {{now|date:iso}}"
+  "syncSettings.gitUpdateMessage": "profile({{profile}}): update -- {{now|date:iso}}",
+  "turboConsoleLog.logMessagePrefix": "🪵",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageEnabled": true,
+  "errorLens.messageTemplate": "$severity",
+  "errorLens.severityText": ["■ Error", "■ Warn", "Info", "Hint"],
+  "errorLens.fontWeight": "bold",
+  "errorLens.fontSize": "14px",
+  "errorLens.borderRadius": "6px",
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.padding": "2px 1ch",
+  "errorLens.delay": 600,
+  "errorLens.gutterIconSet": "defaultOutline",
+  "errorLens.gutterEmoji": {
+    "error": "💩",
+    "warning": "😔",
+    "info": "",
+    "hint": ""
+  },
+  "errorLens.gutterIconSize": "90%"
 }
