@@ -1,0 +1,70 @@
+{
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": ["--host", "--env=TERM=xterm-256color", "zsh"]
+    }
+  },
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "diffEditor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "files.associations": {
+    "*.module": "php",
+    "*.rest": "http"
+  },
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss07', 'ss09'",
+  "editor.fontSize": 16,
+  "telemetry.telemetryLevel": "error",
+  "css.lint.unknownAtRules": "ignore",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "editor.lineHeight": 26,
+  "prettier.singleQuote": true,
+  "editor.cursorBlinking": "phase",
+  "editor.fontWeight": "600",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.linkedEditing": true,
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.folders.theme": "specific",
+  "editor.inlayHints.fontSize": 12,
+  "editor.inlayHints.maximumLength": 25,
+  "editor.inlayHints.padding": true,
+  "editor.formatOnSave": true,
+  "git.blame.editorDecoration.enabled": true,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "editor.codeLens": false,
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "workbench.colorTheme": "Proto Monokai V",
+  "workbench.activityBar.location": "top",
+  "window.customTitleBarVisibility": "auto",
+  "window.menuBarVisibility": "toggle",
+  "window.newWindowProfile": "Default",
+  "redhat.telemetry.enabled": false,
+  "syncSettings.hostname": "{{hostname}}",
+  "syncSettings.gitInitMessage": "profile({{profile}}): init -- {{now|date:iso}}",
+  "syncSettings.gitUpdateMessage": "profile({{profile}}): update -- {{now|date:iso}}"
+}
