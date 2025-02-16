@@ -11,7 +11,11 @@
   "editor.guides.bracketPairsHorizontal": true,
   "diffEditor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.zoomLevel": 1,
+  // #if(os="linux")
+  // "window.zoomLevel": 1,
+  // #else
+  // "window.zoomLevel": 0,
+  // #endif
   "workbench.startupEditor": "none",
   "files.associations": {
     "*.module": "php",
@@ -91,5 +95,6 @@
     "info": "",
     "hint": ""
   },
-  "errorLens.gutterIconSize": "90%"
+  "errorLens.gutterIconSize": "90%",
+  "github.copilot.editor.enableAutoCompletions": false
 }

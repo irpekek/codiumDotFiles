@@ -4,6 +4,8 @@ enabled:
     uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
+  - id: Codeium.codeium
+    uuid: acab4f40-b6db-42ec-bcd1-01802cbdd988
   - id: ecmel.vscode-html-css
     uuid: aaee577c-f062-495a-9816-0cbd442f1d25
   - id: esbenp.prettier-vscode
