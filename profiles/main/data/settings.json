@@ -69,9 +69,6 @@
   "editor.minimap.enabled": false,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "workbench.colorTheme": "Proto Monokai V",
-  "workbench.activityBar.location": "top",
-  "window.customTitleBarVisibility": "auto",
-  "window.menuBarVisibility": "toggle",
   "window.newWindowProfile": "Default",
   "redhat.telemetry.enabled": false,
   "syncSettings.hostname": "{{hostname}}",
@@ -96,5 +93,9 @@
     "hint": ""
   },
   "errorLens.gutterIconSize": "90%",
-  "github.copilot.editor.enableAutoCompletions": false
+  "github.copilot.editor.enableAutoCompletions": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.titleBarStyle": "custom",
+  "chat.commandCenter.enabled": true,
+  "workbench.activityBar.location": "top"
 }
